@@ -44,10 +44,10 @@ requirements = python3==3.10.6, kivymd==1.1.1, pillow==9.3.0, beautifulsoup4==4.
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/calculatorsplash.png
+#presplash.filename = %(source.dir)s/splash.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/calculator.png
+icon.filename = %(source.dir)s/applogo.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 #- orientation = landscape
@@ -61,7 +61,7 @@ orientation = portrait
 #
 
 #
- author = Taiwo
+ author = Taiwo Owolanke
 
 # change the major version of python used by the app
 osx.python_version = 3
